@@ -1,35 +1,47 @@
+//concat => join two arrays
 arr1 = ["Cecile","Lone"];
-arr2 = ["Emil","Tobias","Linus"];
-let result = arr1.concat(arr2);
+arr2 = [,"Emil","Tobias","Linus"];
+let result = arr1.concat(arr2); //
+console.log(arr1+arr2); // use plus sign to merge two arrays
 
+//push => to add an element to the array
 let fruits = ["Banana","Orange","Apple","Mango"];
 fruits.push =("Kiwi");
 console.log(fruits);
 
+//unshift => add a new element at the beginning of the array
 let array1 = [1,2,3];
 array1.unshift(4,5);
 console.log(array1);
 
+//pop => to remove the last element from the array
 let fruits = ["Banana","Orange","Apple","Mango"];
+    //index     0         1        2       3
 fruits.pop =(3);
 console.log(fruits);
 
+//shift => remove the first element
 let array2 = [1,2,3];
+  //index     0 1 2
 numbers.shift(0);
 console.log(array2);
 
+//sort => arranged by alphabetical order
 let fruits = ["Banana","Orange","Apple","Mango"];
 console.log(fruits.sort());
 
+//slice => to create a new array
 let fruits = ["Banana","Orange","Apple","Mango"];
 fruits.slice(2);
 console.log(fruits);
 
-let months = ["January",
+//splice => add or remove elements between the array
+let months = [
+      "January",
       "February",
       "March",
       "April",
-      "May","
+      "May",
       "June",
       "July",
       "August",
