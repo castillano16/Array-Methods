@@ -1,0 +1,19 @@
+arr1 = ["Cecile","Lone"];
+arr2 = ["Emil","Tobias","Linus"];
+let result = arr1.concat(arr2);
+
+let fruits = ["Banana","Orange","Apple","Mango"];
+fruits.push =("Kiwi");
+console.log(fruits);
+
+let numbers = [1, 2,3];
+numbers.unshift(4,5);
+console.log(numbers);
+
+let fruits = ["Banana","Orange","Apple","Mango"];
+fruits.pop =(4);
+console.log(fruits);
+
+let numbers = [1, 2,3];
+numbers.unshift(4,5);
+console.log(numbers);
