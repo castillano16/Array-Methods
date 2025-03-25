@@ -6,14 +6,37 @@ let fruits = ["Banana","Orange","Apple","Mango"];
 fruits.push =("Kiwi");
 console.log(fruits);
 
-let numbers = [1, 2,3];
-numbers.unshift(4,5);
-console.log(numbers);
+let array1 = [1,2,3];
+array1.unshift(4,5);
+console.log(array1);
 
 let fruits = ["Banana","Orange","Apple","Mango"];
-fruits.pop =(4);
+fruits.pop =(3);
 console.log(fruits);
 
-let numbers = [1, 2,3];
-numbers.unshift(4,5);
-console.log(numbers);
+let array2 = [1,2,3];
+numbers.shift(0);
+console.log(array2);
+
+let fruits = ["Banana","Orange","Apple","Mango"];
+console.log(fruits.sort());
+
+let fruits = ["Banana","Orange","Apple","Mango"];
+fruits.slice(2);
+console.log(fruits);
+
+let months = ["January",
+      "February",
+      "March",
+      "April",
+      "May","
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November", 
+      "December"
+];
+months.splice(1,4);
+console.log(months);
