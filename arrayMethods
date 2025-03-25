@@ -1,7 +1,7 @@
 //concat => join two arrays
 arr1 = ["Cecile","Lone"];
 arr2 = [,"Emil","Tobias","Linus"];
-let result = arr1.concat(arr2); //
+let result = arr1.concat(arr2); 
 console.log(arr1+arr2); // use plus sign to merge two arrays
 
 //push => to add an element to the array
